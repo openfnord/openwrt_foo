@@ -1,7 +1,7 @@
 # openwrt_foo
 
 This is a collection of stuff that I created or found (random mac)
-to make my live easier using a zoo of old plastic routers to
+to make my life easier using a zoo of old plastic routers to
 unlash the magic of a "distributed" vlan switch / router infrastructure
 that spans the whole house
 
