@@ -1,0 +1,12 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006-2011 OpenWrt.org
+
+START=5
+STOP=98
+
+
+boot() {
+
+	cat /etc/config/dhcp_basic /etc/config/dhcphosts >/etc/config/dhcp
+
+}

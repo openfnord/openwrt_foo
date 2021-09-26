@@ -1,0 +1,80 @@
+config host                                                                     
+        option name 'p1d4c'                                                     
+        option dns '1'                                                          
+        option mac '01:00:92:a1:23:23:01'                                          
+        option ip '192.168.42.201'                                             
+        option leasetime '12h'                                                  
+                                                                                
+config host                                                                     
+        option name 'p2d4b'                                                     
+        option dns '1'
+        option mac 'FC:3F:AB:23:23:02'
+        option ip '192.168.42.202'                                             
+        option leasetime '12h'                                                  
+                                                                                
+config host                                                                     
+        option name 'p3d4b'                                                     
+        option dns '1'                                                          
+        option mac '00:C0:0E:23:23:03'                                          
+        option ip '192.168.42.203'                                             
+        option leasetime '12h'                                                  
+                                                                                
+config host                                                                     
+        option name 'p4d4b'                                                     
+        option dns '1'                                                          
+        option mac '00:21:ba:23:23:04'                                          
+        option leasetime '12h'                                                  
+        option ip '192.168.42.204'                                             
+
+config host                                                                     
+        option name 'p5d4c'                                                     
+        option dns '1'                                                          
+        option mac '2c:59:e1:23:23:05'                                          
+        option leasetime '12h'                                                  
+        option ip '192.168.42.205'                                             
+
+config host
+	option name 'mr1_lan'
+	option dns '1'
+	option mac '08:11:96:34:82:5a'
+	option ip '192.168.42.211'
+	option leasetime '12h'
+
+
+config host
+	option name 'android-A'
+	option dns '1'
+	option mac 'f0:d2:2d:e3:42:23'
+	option ip '192.168.42.181'
+	option leasetime '12h'
+
+
+config host
+	option name 'android-B'
+	option dns '1'
+	option mac 'f0:d2:2d:e3:42:24'
+	option ip '192.168.42.182'
+	option leasetime '12h'
+
+
+config host
+	option name 'iconnect1'
+	option dns '1'
+	option ip '192.168.42.91'
+	option mac '00:d0:b8:19:42:0a'
+        option leasetime '12h'                                                  
+
+config host
+	option name 'iconnect2'
+	option dns '1'
+	option ip '192.168.42.92'
+	option mac '00:d0:b8:19:42:0b'
+        option leasetime '12h'                                                  
+
+config host
+	option name 'iconnect3'
+	option dns '1'
+	option ip '192.168.42.93'
+	option mac '00:d0:b8:19:42:0c'
+        option leasetime '12h'                                                  
+

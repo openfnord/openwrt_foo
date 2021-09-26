@@ -1,0 +1,15 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006-2011 OpenWrt.org
+
+START=10
+STOP=98
+
+
+boot() {
+
+        insmod mtd-rw i_want_a_brick=1
+        ubiattach -p /dev/mtd5
+        mkdir /tmp/ubi1
+        mount -t ubifs /dev/ubi1_0 /tmp/ubi1
+
+}
