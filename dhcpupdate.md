@@ -16,7 +16,7 @@ Nothing special. It should work on a base OpenWRT system.
 1. Copy `dhcpupdate` to `/etc/init.d/`
 2. Make sure the file is executable (`chmod +x /etc/init.d/dhcpupdate`)
 3. Modify the `START` line in the file if you'd like to customize the init order (optional)
-4. Enable the service so it will randomize the MAC address on every boot (`/etc/init.d/dhcpupdate enable`)
+4. Enable the service so it will update the dhcp file /etc/config/dhcp on every boot (`/etc/init.d/dhcpupdate enable`)
 5. Restart your router or start the service manually (`/etc/init.d/dhcpupdate start`)
 
 
