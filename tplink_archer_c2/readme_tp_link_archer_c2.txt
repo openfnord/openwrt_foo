@@ -16,6 +16,8 @@ is included.
 Have fun with this cheap router.
 
 BTW: If something strange happens to your browser which ends in high 
-disk activity and a slow computer, unplug the net, start a sniffer and investigate..
+disk activity and a slow computer, the Gilb might want to visit you.
+Unplug the net, kill your browser. 
+Then setup a honeypot, start a sniffer and investigate..
 
 
